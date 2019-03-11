@@ -1,0 +1,382 @@
+#############################################################################
+$ ./yum_parser.ps1 -f /path/to/log_file
+Erased
+Feb 28 12:52:09 esc-1.1.0-37.el7.x86_64
+Feb 28 12:53:56 coolkey-1.1.0-37.el7.x86_64
+Feb 28 12:53:56 pcsc-lite-1.8.8-6.el7.x86_64
+Feb 28 12:53:57 pcsc-lite-ccid-1.4.10-12.el7.x86_64
+Feb 28 15:08:15 docker-ce-17.12.1.ce-1.el7.centos.x86_64
+Mar 07 09:41:14 atom-1.24.0-0.1.x86_64
+Mar 07 11:28:38 cockpit-storaged-157-1.el7.noarch
+Mar 07 11:28:39 1:atomic-registries-1.20.1-9.git436cf5d.el7.x86_64
+Mar 07 11:28:39 2:container-selinux-2.36-1.gitff95335.el7.noarch
+Mar 07 11:28:39 2:docker-1.12.6-71.git3e8e77d.el7.x86_64
+Updated
+Feb 28 11:27:45 libgcc-4.8.5-16.el7_4.1.x86_64
+Feb 28 11:27:46 1:grub2-common-2.02-0.65.el7_4.2.noarch
+Feb 28 11:27:46 32:bind-license-9.9.4-51.el7_4.2.noarch
+Feb 28 11:27:46 ipa-client-common-4.5.0-22.el7_4.noarch
+Feb 28 11:27:46 ipa-common-4.5.0-22.el7_4.noarch
+Feb 28 11:27:46 python-sssdconfig-1.15.2-50.el7_4.8.noarch
+Feb 28 11:27:46 tzdata-java-2018c-1.el7.noarch
+Feb 28 11:27:47 1:grub2-pc-modules-2.02-0.65.el7_4.2.noarch
+Feb 28 11:27:47 python-rhsm-certificates-1.19.10-1.el7_4.x86_64
+Feb 28 11:27:47 seabios-bin-1.10.2-3.el7_4.1.noarch
+Installed
+Feb 28 11:27:54 1:grub2-tools-minimal-2.02-0.65.el7_4.2.x86_64
+Feb 28 11:28:19 ldns-1.6.16-10.el7.x86_64
+Feb 28 11:28:24 1:grub2-tools-2.02-0.65.el7_4.2.x86_64
+Feb 28 11:28:25 1:grub2-tools-extra-2.02-0.65.el7_4.2.x86_64
+Feb 28 11:28:30 unbound-libs-1.4.20-34.el7.x86_64
+Feb 28 11:28:52 kernel-devel-3.10.0-693.17.1.el7.x86_64
+Feb 28 11:29:02 kernel-3.10.0-693.17.1.el7.x86_64
+Feb 28 11:29:12 1:grub2-2.02-0.65.el7_4.2.x86_64
+Feb 28 11:49:57 lm_sensors-3.4.0-4.20160601gitf9185e5.el7.x86_64
+Feb 28 11:50:47 ipmitool-1.8.18-5.el7.x86_64
+#############################################################################
+$ ./yum_parser.ps1 -f /path/to/log_file -r
+Erased
+Jun 11 10:01:36 google-chrome-stable-67.0.3396.79-1.x86_64
+Jun 11 09:52:56 google-chrome-stable-67.0.3396.79-1.x86_64
+Mar 13 11:03:12 terminator-0.98-3.el7.noarch
+Mar 07 11:31:50 subscription-manager-plugin-container-1.19.23-1.el7_4.x86_64
+Mar 07 11:31:50 2:oci-umount-2.3.1-2.gitbf16163.el7.x86_64
+Mar 07 11:31:50 2:docker-rhel-push-plugin-1.12.6-71.git3e8e77d.el7.x86_64
+Mar 07 11:31:50 1:skopeo-containers-0.1.27-3.dev.git14245f2.el7.x86_64
+Mar 07 11:31:50 1:oci-systemd-hook-0.1.14-2.git9b1e622.el7.x86_64
+Mar 07 11:28:41 1:oci-register-machine-0-3.14.gitcd1e331.el7.x86_64
+Mar 07 11:28:40 storaged-2.5.2-4.el7.x86_64
+Updated
+Jun 11 09:49:08 libdbusmenu-gtk2-16.04.0-4.el7.x86_64
+Jun 11 09:49:08 google-chrome-stable-67.0.3396.79-1.x86_64
+Jun 11 09:49:02 libdbusmenu-16.04.0-4.el7.x86_64
+Apr 19 13:09:05 pcp-3.12.2-5.el7.x86_64
+Apr 19 13:09:04 pcp-selinux-3.12.2-5.el7.x86_64
+Apr 19 13:09:04 pcp-libs-3.12.2-5.el7.x86_64
+Apr 19 13:09:04 pcp-conf-3.12.2-5.el7.x86_64
+Apr 13 10:27:12 google-chrome-stable-65.0.3325.181-1.x86_64
+Apr 13 10:27:07 tzdata-java-2018d-1.el7.noarch
+Apr 13 10:27:07 slack-3.1.1-0.1.fc21.x86_64
+Installed
+Jul 27 13:53:13 wireshark-gnome-1.10.14-14.el7.x86_64
+Jul 27 13:42:17 wireshark-1.10.14-14.el7.x86_64
+Jul 27 13:42:15 libsmi-0.4.8-13.el7.x86_64
+Jun 14 13:44:36 2:ntfs-3g-2017.3.23-6.el7.x86_64
+Jun 11 09:53:32 google-chrome-stable-67.0.3396.79-1.x86_64
+Jun 11 09:49:02 libindicator-gtk3-12.10.1-6.el7.x86_64
+Jun 11 09:49:02 libdbusmenu-gtk3-16.04.0-4.el7.x86_64
+Jun 11 09:49:02 libappindicator-gtk3-12.10.0-13.el7.x86_64
+May 15 12:18:05 atom-1.26.1-0.1.x86_64
+May 15 12:13:19 ansible-2.4.2.0-2.el7.noarch
+#############################################################################
+$ ./yum_parser.ps1 -f /path/to/log_file -n 5
+Erased
+Feb 28 12:52:09 esc-1.1.0-37.el7.x86_64
+Feb 28 12:53:56 coolkey-1.1.0-37.el7.x86_64
+Feb 28 12:53:56 pcsc-lite-1.8.8-6.el7.x86_64
+Feb 28 12:53:57 pcsc-lite-ccid-1.4.10-12.el7.x86_64
+Feb 28 15:08:15 docker-ce-17.12.1.ce-1.el7.centos.x86_64
+Updated
+Feb 28 11:27:45 libgcc-4.8.5-16.el7_4.1.x86_64
+Feb 28 11:27:46 1:grub2-common-2.02-0.65.el7_4.2.noarch
+Feb 28 11:27:46 32:bind-license-9.9.4-51.el7_4.2.noarch
+Feb 28 11:27:46 ipa-client-common-4.5.0-22.el7_4.noarch
+Feb 28 11:27:46 ipa-common-4.5.0-22.el7_4.noarch
+Installed
+Feb 28 11:27:54 1:grub2-tools-minimal-2.02-0.65.el7_4.2.x86_64
+Feb 28 11:28:19 ldns-1.6.16-10.el7.x86_64
+Feb 28 11:28:24 1:grub2-tools-2.02-0.65.el7_4.2.x86_64
+Feb 28 11:28:25 1:grub2-tools-extra-2.02-0.65.el7_4.2.x86_64
+Feb 28 11:28:30 unbound-libs-1.4.20-34.el7.x86_64
+#############################################################################
+$ ./yum_parser.ps1 -f /path/to/log_file -n 5 -r
+Erased
+Jun 11 10:01:36 google-chrome-stable-67.0.3396.79-1.x86_64
+Jun 11 09:52:56 google-chrome-stable-67.0.3396.79-1.x86_64
+Mar 13 11:03:12 terminator-0.98-3.el7.noarch
+Mar 07 11:31:50 subscription-manager-plugin-container-1.19.23-1.el7_4.x86_64
+Mar 07 11:31:50 2:oci-umount-2.3.1-2.gitbf16163.el7.x86_64
+Updated
+Jun 11 09:49:08 libdbusmenu-gtk2-16.04.0-4.el7.x86_64
+Jun 11 09:49:08 google-chrome-stable-67.0.3396.79-1.x86_64
+Jun 11 09:49:02 libdbusmenu-16.04.0-4.el7.x86_64
+Apr 19 13:09:05 pcp-3.12.2-5.el7.x86_64
+Apr 19 13:09:04 pcp-selinux-3.12.2-5.el7.x86_64
+Installed
+Jul 27 13:53:13 wireshark-gnome-1.10.14-14.el7.x86_64
+Jul 27 13:42:17 wireshark-1.10.14-14.el7.x86_64
+Jul 27 13:42:15 libsmi-0.4.8-13.el7.x86_64
+Jun 14 13:44:36 2:ntfs-3g-2017.3.23-6.el7.x86_64
+Jun 11 09:53:32 google-chrome-stable-67.0.3396.79-1.x86_64
+#############################################################################
+$ ./yum_parser.ps1 -f /path/to/log_file -e
+Erased
+Feb 28 12:52:09 esc-1.1.0-37.el7.x86_64
+Feb 28 12:53:56 coolkey-1.1.0-37.el7.x86_64
+Feb 28 12:53:56 pcsc-lite-1.8.8-6.el7.x86_64
+Feb 28 12:53:57 pcsc-lite-ccid-1.4.10-12.el7.x86_64
+Feb 28 15:08:15 docker-ce-17.12.1.ce-1.el7.centos.x86_64
+Mar 07 09:41:14 atom-1.24.0-0.1.x86_64
+Mar 07 11:28:38 cockpit-storaged-157-1.el7.noarch
+Mar 07 11:28:39 1:atomic-registries-1.20.1-9.git436cf5d.el7.x86_64
+Mar 07 11:28:39 2:container-selinux-2.36-1.gitff95335.el7.noarch
+Mar 07 11:28:39 2:docker-1.12.6-71.git3e8e77d.el7.x86_64
+#############################################################################
+$ ./yum_parser.ps1 -f /path/to/log_file -e -r
+Erased
+Jun 11 10:01:36 google-chrome-stable-67.0.3396.79-1.x86_64
+Jun 11 09:52:56 google-chrome-stable-67.0.3396.79-1.x86_64
+Mar 13 11:03:12 terminator-0.98-3.el7.noarch
+Mar 07 11:31:50 subscription-manager-plugin-container-1.19.23-1.el7_4.x86_64
+Mar 07 11:31:50 2:oci-umount-2.3.1-2.gitbf16163.el7.x86_64
+Mar 07 11:31:50 2:docker-rhel-push-plugin-1.12.6-71.git3e8e77d.el7.x86_64
+Mar 07 11:31:50 1:skopeo-containers-0.1.27-3.dev.git14245f2.el7.x86_64
+Mar 07 11:31:50 1:oci-systemd-hook-0.1.14-2.git9b1e622.el7.x86_64
+Mar 07 11:28:41 1:oci-register-machine-0-3.14.gitcd1e331.el7.x86_64
+Mar 07 11:28:40 storaged-2.5.2-4.el7.x86_64
+#############################################################################
+$ ./yum_parser.ps1 -f /path/to/log_file -i
+Installed
+Feb 28 11:27:54 1:grub2-tools-minimal-2.02-0.65.el7_4.2.x86_64
+Feb 28 11:28:19 ldns-1.6.16-10.el7.x86_64
+Feb 28 11:28:24 1:grub2-tools-2.02-0.65.el7_4.2.x86_64
+Feb 28 11:28:25 1:grub2-tools-extra-2.02-0.65.el7_4.2.x86_64
+Feb 28 11:28:30 unbound-libs-1.4.20-34.el7.x86_64
+Feb 28 11:28:52 kernel-devel-3.10.0-693.17.1.el7.x86_64
+Feb 28 11:29:02 kernel-3.10.0-693.17.1.el7.x86_64
+Feb 28 11:29:12 1:grub2-2.02-0.65.el7_4.2.x86_64
+Feb 28 11:49:57 lm_sensors-3.4.0-4.20160601gitf9185e5.el7.x86_64
+Feb 28 11:50:47 ipmitool-1.8.18-5.el7.x86_64
+#############################################################################
+$ ./yum_parser.ps1 -f /path/to/log_file -i -r
+Installed
+Jul 27 13:53:13 wireshark-gnome-1.10.14-14.el7.x86_64
+Jul 27 13:42:17 wireshark-1.10.14-14.el7.x86_64
+Jul 27 13:42:15 libsmi-0.4.8-13.el7.x86_64
+Jun 14 13:44:36 2:ntfs-3g-2017.3.23-6.el7.x86_64
+Jun 11 09:53:32 google-chrome-stable-67.0.3396.79-1.x86_64
+Jun 11 09:49:02 libindicator-gtk3-12.10.1-6.el7.x86_64
+Jun 11 09:49:02 libdbusmenu-gtk3-16.04.0-4.el7.x86_64
+Jun 11 09:49:02 libappindicator-gtk3-12.10.0-13.el7.x86_64
+May 15 12:18:05 atom-1.26.1-0.1.x86_64
+May 15 12:13:19 ansible-2.4.2.0-2.el7.noarch
+#############################################################################
+$ ./yum_parser.ps1 -f /path/to/log_file -u
+Updated
+Feb 28 11:27:45 libgcc-4.8.5-16.el7_4.1.x86_64
+Feb 28 11:27:46 1:grub2-common-2.02-0.65.el7_4.2.noarch
+Feb 28 11:27:46 32:bind-license-9.9.4-51.el7_4.2.noarch
+Feb 28 11:27:46 ipa-client-common-4.5.0-22.el7_4.noarch
+Feb 28 11:27:46 ipa-common-4.5.0-22.el7_4.noarch
+Feb 28 11:27:46 python-sssdconfig-1.15.2-50.el7_4.8.noarch
+Feb 28 11:27:46 tzdata-java-2018c-1.el7.noarch
+Feb 28 11:27:47 1:grub2-pc-modules-2.02-0.65.el7_4.2.noarch
+Feb 28 11:27:47 python-rhsm-certificates-1.19.10-1.el7_4.x86_64
+Feb 28 11:27:47 seabios-bin-1.10.2-3.el7_4.1.noarch
+#############################################################################
+$ ./yum_parser.ps1 -f /path/to/log_file -u -r
+Updated
+Jun 11 09:49:08 libdbusmenu-gtk2-16.04.0-4.el7.x86_64
+Jun 11 09:49:08 google-chrome-stable-67.0.3396.79-1.x86_64
+Jun 11 09:49:02 libdbusmenu-16.04.0-4.el7.x86_64
+Apr 19 13:09:05 pcp-3.12.2-5.el7.x86_64
+Apr 19 13:09:04 pcp-selinux-3.12.2-5.el7.x86_64
+Apr 19 13:09:04 pcp-libs-3.12.2-5.el7.x86_64
+Apr 19 13:09:04 pcp-conf-3.12.2-5.el7.x86_64
+Apr 13 10:27:12 google-chrome-stable-65.0.3325.181-1.x86_64
+Apr 13 10:27:07 tzdata-java-2018d-1.el7.noarch
+Apr 13 10:27:07 slack-3.1.1-0.1.fc21.x86_64
+#############################################################################
+$ ./yum_parser.ps1 -f /path/to/log_file -u -i
+Updated
+Feb 28 11:27:45 libgcc-4.8.5-16.el7_4.1.x86_64
+Feb 28 11:27:46 1:grub2-common-2.02-0.65.el7_4.2.noarch
+Feb 28 11:27:46 32:bind-license-9.9.4-51.el7_4.2.noarch
+Feb 28 11:27:46 ipa-client-common-4.5.0-22.el7_4.noarch
+Feb 28 11:27:46 ipa-common-4.5.0-22.el7_4.noarch
+Feb 28 11:27:46 python-sssdconfig-1.15.2-50.el7_4.8.noarch
+Feb 28 11:27:46 tzdata-java-2018c-1.el7.noarch
+Feb 28 11:27:47 1:grub2-pc-modules-2.02-0.65.el7_4.2.noarch
+Feb 28 11:27:47 python-rhsm-certificates-1.19.10-1.el7_4.x86_64
+Feb 28 11:27:47 seabios-bin-1.10.2-3.el7_4.1.noarch
+Installed
+Feb 28 11:27:54 1:grub2-tools-minimal-2.02-0.65.el7_4.2.x86_64
+Feb 28 11:28:19 ldns-1.6.16-10.el7.x86_64
+Feb 28 11:28:24 1:grub2-tools-2.02-0.65.el7_4.2.x86_64
+Feb 28 11:28:25 1:grub2-tools-extra-2.02-0.65.el7_4.2.x86_64
+Feb 28 11:28:30 unbound-libs-1.4.20-34.el7.x86_64
+Feb 28 11:28:52 kernel-devel-3.10.0-693.17.1.el7.x86_64
+Feb 28 11:29:02 kernel-3.10.0-693.17.1.el7.x86_64
+Feb 28 11:29:12 1:grub2-2.02-0.65.el7_4.2.x86_64
+Feb 28 11:49:57 lm_sensors-3.4.0-4.20160601gitf9185e5.el7.x86_64
+Feb 28 11:50:47 ipmitool-1.8.18-5.el7.x86_64
+#############################################################################
+$ ./yum_parser.ps1 -f /path/to/log_file -u -i -n 5 -r
+Updated
+Jun 11 09:49:08 libdbusmenu-gtk2-16.04.0-4.el7.x86_64
+Jun 11 09:49:08 google-chrome-stable-67.0.3396.79-1.x86_64
+Jun 11 09:49:02 libdbusmenu-16.04.0-4.el7.x86_64
+Apr 19 13:09:05 pcp-3.12.2-5.el7.x86_64
+Apr 19 13:09:04 pcp-selinux-3.12.2-5.el7.x86_64
+Installed
+Jul 27 13:53:13 wireshark-gnome-1.10.14-14.el7.x86_64
+Jul 27 13:42:17 wireshark-1.10.14-14.el7.x86_64
+Jul 27 13:42:15 libsmi-0.4.8-13.el7.x86_64
+Jun 14 13:44:36 2:ntfs-3g-2017.3.23-6.el7.x86_64
+Jun 11 09:53:32 google-chrome-stable-67.0.3396.79-1.x86_64
+#############################################################################
+$ ./yum_parser.ps1 -f /path/to/log_file -u -n 20
+Updated
+Feb 28 11:27:45 libgcc-4.8.5-16.el7_4.1.x86_64
+Feb 28 11:27:46 1:grub2-common-2.02-0.65.el7_4.2.noarch
+Feb 28 11:27:46 32:bind-license-9.9.4-51.el7_4.2.noarch
+Feb 28 11:27:46 ipa-client-common-4.5.0-22.el7_4.noarch
+Feb 28 11:27:46 ipa-common-4.5.0-22.el7_4.noarch
+Feb 28 11:27:46 python-sssdconfig-1.15.2-50.el7_4.8.noarch
+Feb 28 11:27:46 tzdata-java-2018c-1.el7.noarch
+Feb 28 11:27:47 1:grub2-pc-modules-2.02-0.65.el7_4.2.noarch
+Feb 28 11:27:47 python-rhsm-certificates-1.19.10-1.el7_4.x86_64
+Feb 28 11:27:47 seabios-bin-1.10.2-3.el7_4.1.noarch
+Feb 28 11:27:47 seavgabios-bin-1.10.2-3.el7_4.1.noarch
+Feb 28 11:27:48 kernel-headers-3.10.0-693.17.1.el7.x86_64
+Feb 28 11:27:48 ncurses-base-5.9-14.20130511.el7_4.noarch
+Feb 28 11:27:48 tzdata-2018c-1.el7.noarch
+Feb 28 11:27:48 xorg-x11-server-common-1.19.3-11.el7_4.1.x86_64
+Feb 28 11:27:49 bash-4.2.46-29.el7_4.x86_64
+Feb 28 11:27:49 nss-softokn-freebl-3.28.3-8.el7_4.x86_64
+Feb 28 11:27:52 glibc-common-2.17-196.el7_4.2.x86_64
+Feb 28 11:27:53 glibc-2.17-196.el7_4.2.x86_64
+Feb 28 11:27:53 libblkid-2.23.2-43.el7_4.2.x86_64
+#############################################################################
+$ ./yum_parser.ps1 -f /path/to/log_file -i -n 20
+Installed
+Feb 28 11:27:54 1:grub2-tools-minimal-2.02-0.65.el7_4.2.x86_64
+Feb 28 11:28:19 ldns-1.6.16-10.el7.x86_64
+Feb 28 11:28:24 1:grub2-tools-2.02-0.65.el7_4.2.x86_64
+Feb 28 11:28:25 1:grub2-tools-extra-2.02-0.65.el7_4.2.x86_64
+Feb 28 11:28:30 unbound-libs-1.4.20-34.el7.x86_64
+Feb 28 11:28:52 kernel-devel-3.10.0-693.17.1.el7.x86_64
+Feb 28 11:29:02 kernel-3.10.0-693.17.1.el7.x86_64
+Feb 28 11:29:12 1:grub2-2.02-0.65.el7_4.2.x86_64
+Feb 28 11:49:57 lm_sensors-3.4.0-4.20160601gitf9185e5.el7.x86_64
+Feb 28 11:50:47 ipmitool-1.8.18-5.el7.x86_64
+Feb 28 11:50:47 OpenIPMI-2.0.19-15.el7.x86_64
+Feb 28 11:50:47 OpenIPMI-libs-2.0.19-15.el7.x86_64
+Feb 28 11:50:47 OpenIPMI-modalias-2.0.19-15.el7.x86_64
+Feb 28 12:01:40 python36-3.6.3-7.el7.x86_64
+Feb 28 12:01:40 python36-libs-3.6.3-7.el7.x86_64
+Feb 28 12:01:59 python2-pip-8.1.2-5.el7.noarch
+Feb 28 12:02:45 python-devel-2.7.5-58.el7.x86_64
+Feb 28 12:03:01 python-rpm-macros-3-18.el7.noarch
+Feb 28 12:03:01 python-srpm-macros-3-18.el7.noarch
+Feb 28 12:03:01 python36-devel-3.6.3-7.el7.x86_64
+#############################################################################
+$ ./yum_parser.ps1 -f /path/to/log_file -i -n 20 -r
+Installed
+Jul 27 13:53:13 wireshark-gnome-1.10.14-14.el7.x86_64
+Jul 27 13:42:17 wireshark-1.10.14-14.el7.x86_64
+Jul 27 13:42:15 libsmi-0.4.8-13.el7.x86_64
+Jun 14 13:44:36 2:ntfs-3g-2017.3.23-6.el7.x86_64
+Jun 11 09:53:32 google-chrome-stable-67.0.3396.79-1.x86_64
+Jun 11 09:49:02 libindicator-gtk3-12.10.1-6.el7.x86_64
+Jun 11 09:49:02 libdbusmenu-gtk3-16.04.0-4.el7.x86_64
+Jun 11 09:49:02 libappindicator-gtk3-12.10.0-13.el7.x86_64
+May 15 12:18:05 atom-1.26.1-0.1.x86_64
+May 15 12:13:19 ansible-2.4.2.0-2.el7.noarch
+May 15 12:13:14 python2-jmespath-0.9.0-3.el7.noarch
+May 15 12:13:14 python-passlib-1.6.5-2.el7.noarch
+May 15 12:13:14 python-markupsafe-0.11-10.el7.x86_64
+May 15 12:13:14 python-jinja2-2.7.2-2.el7.noarch
+May 15 12:13:14 python-babel-0.9.6-8.el7.noarch
+May 15 12:13:13 sshpass-1.06-2.el7.x86_64
+May 15 12:13:13 python-paramiko-2.1.1-4.el7.noarch
+May 15 12:13:13 python-httplib2-0.9.2-1.el7.noarch
+Apr 27 11:01:08 whois-5.1.1-2.el7.x86_64
+Apr 20 09:18:17 openvpn-2.4.5-1.el7.x86_64
+#############################################################################
+$ ./yum_parser.ps1 -f /path/to/log_file -u -n 20 -r
+Updated
+Jun 11 09:49:08 libdbusmenu-gtk2-16.04.0-4.el7.x86_64
+Jun 11 09:49:08 google-chrome-stable-67.0.3396.79-1.x86_64
+Jun 11 09:49:02 libdbusmenu-16.04.0-4.el7.x86_64
+Apr 19 13:09:05 pcp-3.12.2-5.el7.x86_64
+Apr 19 13:09:04 pcp-selinux-3.12.2-5.el7.x86_64
+Apr 19 13:09:04 pcp-libs-3.12.2-5.el7.x86_64
+Apr 19 13:09:04 pcp-conf-3.12.2-5.el7.x86_64
+Apr 13 10:27:12 google-chrome-stable-65.0.3325.181-1.x86_64
+Apr 13 10:27:07 tzdata-java-2018d-1.el7.noarch
+Apr 13 10:27:07 slack-3.1.1-0.1.fc21.x86_64
+Apr 13 10:27:01 teamviewer-13.1.3026-0.x86_64
+Apr 13 10:26:59 tzdata-2018d-1.el7.noarch
+Mar 19 11:09:15 cockpit-docker-160-1.el7.x86_64
+Mar 19 11:09:14 2:docker-1.13.1-53.git774336d.el7.x86_64
+Mar 19 11:09:13 2:docker-client-1.13.1-53.git774336d.el7.x86_64
+Mar 19 11:09:12 2:docker-common-1.13.1-53.git774336d.el7.x86_64
+Mar 19 11:09:12 2:container-selinux-2.42-1.gitad8f0f7.el7.noarch
+Mar 19 11:09:12 1:skopeo-containers-0.1.28-1.git0270e56.el7.x86_64
+Mar 19 11:08:42 1:oci-register-machine-0-6.git2b44233.el7.x86_64
+Mar 19 11:08:41 2:docker-rhel-push-plugin-1.13.1-53.git774336d.el7.x86_64
+#############################################################################
+$ ./yum_parser.ps1 -f /path/to/log_file -i -e -u -n 1 -r
+Installed
+Jul 27 13:53:13 wireshark-gnome-1.10.14-14.el7.x86_64
+Erased
+Jun 11 10:01:36 google-chrome-stable-67.0.3396.79-1.x86_64
+Updated
+Jun 11 09:49:08 libdbusmenu-gtk2-16.04.0-4.el7.x86_64
+#############################################################################
+$ ./yum_parser.ps1 -f /path/to/log_file -e -n 100
+Erased
+Feb 28 12:52:09 esc-1.1.0-37.el7.x86_64
+Feb 28 12:53:56 coolkey-1.1.0-37.el7.x86_64
+Feb 28 12:53:56 pcsc-lite-1.8.8-6.el7.x86_64
+Feb 28 12:53:57 pcsc-lite-ccid-1.4.10-12.el7.x86_64
+Feb 28 15:08:15 docker-ce-17.12.1.ce-1.el7.centos.x86_64
+Mar 07 09:41:14 atom-1.24.0-0.1.x86_64
+Mar 07 11:28:38 cockpit-storaged-157-1.el7.noarch
+Mar 07 11:28:39 1:atomic-registries-1.20.1-9.git436cf5d.el7.x86_64
+Mar 07 11:28:39 2:container-selinux-2.36-1.gitff95335.el7.noarch
+Mar 07 11:28:39 2:docker-1.12.6-71.git3e8e77d.el7.x86_64
+Mar 07 11:28:39 2:docker-client-1.12.6-71.git3e8e77d.el7.x86_64
+Mar 07 11:28:39 2:docker-common-1.12.6-71.git3e8e77d.el7.x86_64
+Mar 07 11:28:39 cockpit-docker-157-1.el7.x86_64
+Mar 07 11:28:39 python-pytoml-0.1.14-1.git7dea353.el7.noarch
+Mar 07 11:28:39 storaged-iscsi-2.5.2-4.el7.x86_64
+Mar 07 11:28:39 storaged-lvm2-2.5.2-4.el7.x86_64
+Mar 07 11:28:40 container-storage-setup-0.8.0-3.git1d27ecf.el7.noarch
+Mar 07 11:28:40 libstoraged-2.5.2-4.el7.x86_64
+Mar 07 11:28:40 storaged-2.5.2-4.el7.x86_64
+Mar 07 11:28:41 1:oci-register-machine-0-3.14.gitcd1e331.el7.x86_64
+Mar 07 11:31:50 1:oci-systemd-hook-0.1.14-2.git9b1e622.el7.x86_64
+Mar 07 11:31:50 1:skopeo-containers-0.1.27-3.dev.git14245f2.el7.x86_64
+Mar 07 11:31:50 2:docker-rhel-push-plugin-1.12.6-71.git3e8e77d.el7.x86_64
+Mar 07 11:31:50 2:oci-umount-2.3.1-2.gitbf16163.el7.x86_64
+Mar 07 11:31:50 subscription-manager-plugin-container-1.19.23-1.el7_4.x86_64
+Mar 13 11:03:12 terminator-0.98-3.el7.noarch
+Jun 11 09:52:56 google-chrome-stable-67.0.3396.79-1.x86_64
+Jun 11 10:01:36 google-chrome-stable-67.0.3396.79-1.x86_64
+#############################################################################
+$ ./yum_parser.ps1 -f /path/to/log_file -r -e -n 5 -i
+Erased
+Jun 11 10:01:36 google-chrome-stable-67.0.3396.79-1.x86_64
+Jun 11 09:52:56 google-chrome-stable-67.0.3396.79-1.x86_64
+Mar 13 11:03:12 terminator-0.98-3.el7.noarch
+Mar 07 11:31:50 subscription-manager-plugin-container-1.19.23-1.el7_4.x86_64
+Mar 07 11:31:50 2:oci-umount-2.3.1-2.gitbf16163.el7.x86_64
+Installed
+Jul 27 13:53:13 wireshark-gnome-1.10.14-14.el7.x86_64
+Jul 27 13:42:17 wireshark-1.10.14-14.el7.x86_64
+Jul 27 13:42:15 libsmi-0.4.8-13.el7.x86_64
+Jun 14 13:44:36 2:ntfs-3g-2017.3.23-6.el7.x86_64
+Jun 11 09:53:32 google-chrome-stable-67.0.3396.79-1.x86_64
+#############################################################################
+$ ./yum_parser.ps1 -f /path/to/log_file -n 2 -u -r -i -e
+Updated
+Jun 11 09:49:08 libdbusmenu-gtk2-16.04.0-4.el7.x86_64
+Jun 11 09:49:08 google-chrome-stable-67.0.3396.79-1.x86_64
+Installed
+Jul 27 13:53:13 wireshark-gnome-1.10.14-14.el7.x86_64
+Jul 27 13:42:17 wireshark-1.10.14-14.el7.x86_64
+Erased
+Jun 11 10:01:36 google-chrome-stable-67.0.3396.79-1.x86_64
+Jun 11 09:52:56 google-chrome-stable-67.0.3396.79-1.x86_64
