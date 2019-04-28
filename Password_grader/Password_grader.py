@@ -23,7 +23,7 @@ def hasPunctuation(inputString):
 def isBetweenEightAndTwentyChars(inputString):
     return len(inputString) >= min_chars and len(inputString) <= max_chars
 
-with open(sys.argv[1]) as file_input:
+with open('input.txt') as file_input:
     for line in file_input:
         line = line.rstrip('\n')
         checks_passed = 0

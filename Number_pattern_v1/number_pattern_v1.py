@@ -12,7 +12,7 @@ def round(n):
 
 m_div_results = []
 
-with open(sys.argv[1]) as input:
+with open('input.txt') as input:
     for line in input:
         num = int(line)
 

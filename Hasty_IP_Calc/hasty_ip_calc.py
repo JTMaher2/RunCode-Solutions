@@ -2,7 +2,7 @@
 
 import sys
 
-with open(sys.argv[1]) as input:
+with open('input.txt') as input:
     for line in input:
         parts = line.split(' ')
 

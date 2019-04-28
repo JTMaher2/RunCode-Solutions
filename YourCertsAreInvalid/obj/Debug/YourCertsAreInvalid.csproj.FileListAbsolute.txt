@@ -1,0 +1,10 @@
+C:\Users\James\Documents\Codewarz\YourCertsAreInvalid\bin\Debug\YourCertsAreInvalid.exe.config
+C:\Users\James\Documents\Codewarz\YourCertsAreInvalid\bin\Debug\YourCertsAreInvalid.exe
+C:\Users\James\Documents\Codewarz\YourCertsAreInvalid\bin\Debug\YourCertsAreInvalid.pdb
+C:\Users\James\Documents\Codewarz\YourCertsAreInvalid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\James\Documents\Codewarz\YourCertsAreInvalid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\James\Documents\Codewarz\YourCertsAreInvalid\obj\Debug\YourCertsAreInvalid.csprojAssemblyReference.cache
+C:\Users\James\Documents\Codewarz\YourCertsAreInvalid\obj\Debug\YourCertsAreInvalid.csproj.CoreCompileInputs.cache
+C:\Users\James\Documents\Codewarz\YourCertsAreInvalid\obj\Debug\YourCertsAreInvalid.csproj.CopyComplete
+C:\Users\James\Documents\Codewarz\YourCertsAreInvalid\obj\Debug\YourCertsAreInvalid.exe
+C:\Users\James\Documents\Codewarz\YourCertsAreInvalid\obj\Debug\YourCertsAreInvalid.pdb

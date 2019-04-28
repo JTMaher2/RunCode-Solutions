@@ -1,0 +1,10 @@
+C:\Users\James\Documents\Codewarz\SSH_I_am_Pawsing_bwo\bin\Debug\SSH_I_Am_Pawsing_Bwo.exe.config
+C:\Users\James\Documents\Codewarz\SSH_I_am_Pawsing_bwo\bin\Debug\SSH_I_Am_Pawsing_Bwo.exe
+C:\Users\James\Documents\Codewarz\SSH_I_am_Pawsing_bwo\bin\Debug\SSH_I_Am_Pawsing_Bwo.pdb
+C:\Users\James\Documents\Codewarz\SSH_I_am_Pawsing_bwo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\James\Documents\Codewarz\SSH_I_am_Pawsing_bwo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\James\Documents\Codewarz\SSH_I_am_Pawsing_bwo\obj\Debug\SSH_I_Am_Pawsing_Bwo.csprojAssemblyReference.cache
+C:\Users\James\Documents\Codewarz\SSH_I_am_Pawsing_bwo\obj\Debug\SSH_I_Am_Pawsing_Bwo.csproj.CoreCompileInputs.cache
+C:\Users\James\Documents\Codewarz\SSH_I_am_Pawsing_bwo\obj\Debug\SSH_I_Am_Pawsing_Bwo.csproj.CopyComplete
+C:\Users\James\Documents\Codewarz\SSH_I_am_Pawsing_bwo\obj\Debug\SSH_I_Am_Pawsing_Bwo.exe
+C:\Users\James\Documents\Codewarz\SSH_I_am_Pawsing_bwo\obj\Debug\SSH_I_Am_Pawsing_Bwo.pdb
